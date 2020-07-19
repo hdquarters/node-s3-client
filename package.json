@@ -23,7 +23,7 @@
     "release-it": "13.6.5"
   },
   "dependencies": {
-    "aws-sdk": "2.715.0",
+    "aws-sdk": "2.4.9",
     "fd-slicer": "1.1.0",
     "findit2": "2.2.3",
     "graceful-fs": "4.2.4",
