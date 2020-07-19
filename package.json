@@ -1,6 +1,6 @@
 {
   "name": "@hdquarters/node-s3-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "High level amazon s3 client. upload and download files and directories",
   "main": "lib/index.js",
   "scripts": {
