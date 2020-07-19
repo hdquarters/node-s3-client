@@ -1,0 +1,39 @@
+{
+  "name": "@hdquarters/s3",
+  "version": "0.0.0",
+  "description": "high level amazon s3 client. upload and download files and directories",
+  "main": "lib/index.js",
+  "scripts": {
+    "release": "./node_modules/.bin/release-it --no-npm.publish --git.tagName='v${version}' --github.release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdquarters/node-s3-client.git"
+  },
+  "keywords": [
+    "s3"
+  ],
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hdquarters/node-s3-client/issues"
+  },
+  "homepage": "https://github.com/hdquarters/node-s3-client#readme",
+  "devDependencies": {
+    "release-it": "13.6.5"
+  },
+  "dependencies": {
+    "aws-sdk": "2.715.0",
+    "fd-slicer": "1.1.0",
+    "findit2": "2.2.3",
+    "graceful-fs": "4.2.4",
+    "mime": "2.4.6",
+    "mkdirp": "1.0.4",
+    "pend": "1.2.0",
+    "rimraf": "3.0.2",
+    "streamsink": "1.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
